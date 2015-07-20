@@ -15,7 +15,7 @@ Make sure that ```Makefile``` contains the correct path to your favourite Intern
 
 
 
-The CSS file ```css/include.css``` contains the default DZslides stylesheet. Modify to your liking. Be creative.
+The CSS file ```css/include.css``` contains a modified version of the DZslides stylesheet. Modify it even further to your liking. Be creative.
 
 The ```header.txt``` file contains a license to be included in the DZslides HTML code for your presentation content. Personally I use the [Creative Commons license](http://creativecommons.org/licenses/by-sa/4.0/), but feel free to modify this for your own content.
 

@@ -1,7 +1,12 @@
-<style type="text/css">code{white-space: pre;}</style>
-<style>
+<style type="text/css">
   html { background-color: black; }
-  body { background-color: white; border-radius: 12px}
+  body { background-color: white; border-radius: 12px }
+  code {
+      white-space: pre;
+      font-size: 17px;
+      background-color: #DDDDDD;
+      display: block;
+  }
   /* A section is a slide. It's size is 800x600, and this will never change */
   section {
       font-family: Arial, serif;
@@ -9,12 +14,11 @@
     }
   address, blockquote, dl, fieldset, form, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, table, ul, dl { padding: 10px 20px 10px 20px; }
   h1, h2, h3 {
-    text-align: center;
-    margin: 10pt 10pt 20pt 10pt;
+      text-align: center; 
+      margin: 10pt 10pt 5pt 10pt;
   }
-  ul, ol {
-    margin: 10px 10px 10px 50px;
-  }
+  ul, ol { margin: 5px 10px 10px 50px; }
+  li { margin-bottom: 5px; }
   section.titleslide h1 { margin-top: 200px; }
   h1.title { margin-top: 150px; }
   h1 { font-size: 180%; }
@@ -25,7 +29,7 @@
   /* Figures are displayed full-page, with the caption on
      top of the image/video */
   figure {
-    background-color: black;
+    background-color: white;
   }
   figcaption {
     margin: 70px;
@@ -39,7 +43,19 @@
     background-color: #F3F4F8;
     border-top: 1px solid #CCC;
   }
-
+  .bcard {
+      margin: 70px;
+      padding: 10px 10px 10px 10px;
+      display: block;
+      border-radius: 20px;
+      background-color: #EEEEEE;
+      color: #777777;
+      font-size: 20px;
+      text-align: right
+  }
+  .center { text-align: center; display: block; }
+  .strike { text-decoration: strikethrough; }
+  .super { vertical-align: super; font-size: .83em; }
   /* Transition effect */
   /* Feel free to change the transition effect for original
      animations. See here:

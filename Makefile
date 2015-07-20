@@ -17,7 +17,7 @@ else
 	OFFICE=c:\Program Files (x86)\LibreOffice 4\program\soffice.exe
 endif
 
-OPTIONS=-w dzslides --template my.dzslides --standalone --include-after-body=css/include.css --include-in-header=header.txt
+OPTIONS=-w dzslides --template my.dzslides --standalone --include-in-header=header.txt  --include-in-header=css/include.css
 #HTMLS := $(patsubst %.md,%.html,talk.md)
 MARKDOWN=$(INPUT).md
 HTML=$(MARKDOWN:.md=.html)
