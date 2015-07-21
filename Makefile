@@ -25,7 +25,7 @@ PDF=$(MARKDOWN:.md=.pdf)
 
 ONSTAGE=shells\onstage.html\#..\$(INPUT).html
 
-PDFOPTIONS=-t beamer
+PDFOPTIONS=-t beamer --latex-engine=xelatex
 
 ROOT_DIR:=$(shell readlink -f . )
 

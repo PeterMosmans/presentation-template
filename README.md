@@ -51,3 +51,9 @@ The creator(s) and maintainers of DZslides. See https://github.com/paulrouget/dz
 The creator(s) and maintainers of Pandoc. See http://pandoc.org for more information.
 
 
+## How to push changes upstream ##
+```
+git remote add upstream https://github.com/PeterMosmans/presentation-template
+git fetch upstream
+git diff upstream/master -- .gitignore Makefile css/include.css my.dzslides
+```
