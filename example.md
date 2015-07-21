@@ -58,7 +58,7 @@ apenut
 
 Here comes an image:
 
-![alt text](images/logo.png)
+##### ![Emacs](images/emacs.png) #####
 
 apenut2
 =====
@@ -144,7 +144,7 @@ spinward     There's no reason to use
 -------------------------------------------
 
 rules
-====
+=====
 Done.
 
 
@@ -154,7 +154,7 @@ Here's a horizontal rule:
 
 One minor footnote [^1] to be aware of.
 
-[^1]: footnote text goes here.
+[^1]: surprise! here is the footnote text
 
 You can simply <span class="yo">add html</span>,
 if necessary. You can also escape to LaTeX-formatted
@@ -173,3 +173,26 @@ might try for a similar effect like so:
 | **Special Skills**: Invisibility, Scent matching
 
 or maybe put them into a table, or a definition list.
+
+Thank you for your attention
+============================
+
+
+
+No really,
+
+
+...thank you
+
+
+
+
+
+
+
+
+#### *made with ♥ using ![Emacs](images/emacs.png), ![GNU Make](images/GNU_make.png), [DZSlides](http://paulrouget.com/dzslides/) and [pandoc](http://pandoc.org)* ####
+
+#### www.onwebsecurity.com // **peter.mosmans@go-forward.net** // www.go-forward.net ####
+
+
