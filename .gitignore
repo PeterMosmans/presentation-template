@@ -1,5 +1,11 @@
+# output files of the current talk
 talk.html
 talk.pdf
+
+# example output files
 example.html
 example.pdf
 
+# editor artefacts
+\#*.*#
+.#*
