@@ -52,6 +52,10 @@
       color: #777777;
       font-size: 15px;
   }
+  h5 {
+      margin: 0px;
+      padding: 0px;
+  }
   li { margin-bottom: 5px; }
   section {
       font-family: Arial, serif;
