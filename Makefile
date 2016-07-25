@@ -28,6 +28,9 @@ ONSTAGE=shells\onstage.html\#..\$(INPUT).html
 PDFOPTIONS=-t beamer --latex-engine=xelatex
 
 ROOT_DIR:=$(shell readlink -f . )
+ifeq (,$(findstring windows,$(shell uname -s)))
+	ROOT_DIR:=$(shell cygpath -m $(ROOT_DIR))
+endif
 
 .PHONY: all view
 
